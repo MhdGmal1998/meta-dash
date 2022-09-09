@@ -1,0 +1,79 @@
+.app.dark {
+    $darkModeColor: #111;
+
+    background-color: $darkModeColor;
+    color: rgb(156, 156, 156);
+
+    .chartGrid {
+        stroke: rgb(228, 228, 258, 0.219);
+    }
+
+    .table {
+        background-color: $darkModeColor;
+        -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+        box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+
+        .tableCell {
+            color: gray;
+        }
+    }
+
+    .navbar {
+        .wrapper {
+            border-color: #333;
+            color: #999;
+        }
+
+        input {
+            color: gray;
+        }
+    }
+
+    .sidebar {
+        background-color: $darkModeColor;
+        border-color: #333;
+
+        .top {
+            .logo {
+                color: #999;
+            }
+        }
+
+        hr {
+            border-color: #333;
+        }
+
+        ul {
+            li {
+                &:hover {
+                    background-color: #333;
+                }
+
+                .icon {
+                    color: #999;
+                }
+            }
+        }
+    }
+
+    .datatable {
+        color: gray;
+
+        .datagrid {
+            color: gray;
+            border: none;
+
+            .viewButton,
+            .deleteButton,
+            .cellWithStatus {
+                color: gray;
+                border: none;
+            }
+        }
+    }
+
+    input{
+        background-color: transparent;
+        color: #999;
+    }
+}

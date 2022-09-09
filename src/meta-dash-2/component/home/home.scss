@@ -1,0 +1,81 @@
+.home {
+    flex: 8;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+    .homeTitle {
+        color: white;
+        margin-top: 7px;
+        display: flex;
+        height: 50px;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        font-size: 17px;
+
+        .dashboard {
+            font-weight: bold;
+        }
+
+        .info {
+            display: flex;
+            gap: 20px;
+            font-weight: 50;
+            font-size: 14px;
+            align-items: center;
+        }
+
+        .searchIcon {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 7px;
+            font-weight: 120;
+            cursor: pointer;
+            border-radius: 6px;
+            color: rgba(89, 162, 235, 0.9764705882);
+            background-color: rgba(89, 162, 235, 0.1705882);
+        }
+    }
+
+
+    .homeCards {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        margin-top: 23px;
+
+        .homeCard {
+            flex: 1;
+            background-color: #01081f;
+            padding: 30px 12px;
+            display: flex;
+            gap: 60px;
+            margin-left: 12px;
+            border-radius: 12px;
+
+            .left {
+
+                .title {
+                    color: gray;
+                    font-weight: bold;
+                }
+
+                .value {
+                    margin-top: 13px;
+                    color: white;
+                    font-size: 18px;
+                    font-weight: bold;
+                }
+            }
+
+            .right {
+                .circle {
+                    width: 70px;
+                    height: 70px;
+                }
+            }
+        }
+    }
+}
