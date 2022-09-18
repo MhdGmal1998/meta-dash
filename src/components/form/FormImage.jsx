@@ -19,12 +19,12 @@ function FormImage() {
                 'content-type': 'multipart/form-data'
             }
         };
-        axios.post("http://localhost:4000/upload", formData, config)
-            .then((response) => {
-                alert("The file is successfully uploaded");
-            }).catch((error) => {
-                alert('the error is' + error.response.data)
-            });
+        // axios.post("http://localhost:4000/upload", formData, config)
+        //     .then((response) => {
+        //         alert("The file is successfully uploaded");
+        //     }).catch((error) => {
+        //         alert('the error is' + error.response.data)
+        //     });
     }
     const onChange = (e) => {
 
